@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  background-color: white;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #0A090C;
+  margin: 0;
+}
+
+.site-logo {
+ display: inline-block;
+}
+
+.site-header {
+  background-color: #083D77;
+  color: white;
+  padding: 10px 30px;
+  border-bottom: 3px solid #90DDF0;
+}
+
+.main-menu {
+  padding: 40px 20px;
+  height: 25px;
+  margin: 20px;
+  color: yellow;
+  font-family: open sans;
+}
+
+h2, p{
+  font-family: open sans;
+  margin: 10px;
+}
+
+.search {
+  background-color: #D3D3D3;
+  font-family: open sans;
+}
+
+.search__choice {
+  display: inline-block;
+  vertical-align: text-top;
+  padding: 20px;
+}
+
+label {
+ display: block;
+margin: auto;
+} 
+
+
+.row {
+  clear: both;
+  overflow: auto;
+}
+
+.animal {
+  width: 360px;
+  height: 400px;
+  padding: 10px;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 1px solid gray;
+}
+
+.animal img {
+  max-width: 360px;
+}
+
+.animal__trait {
+  background-color: #2aa4ea;
+  border-radius: 15%;
+  font-family: open sans;
+}
+
+.footer__block {
+  float: left;
+  width: 33.3%
+    
+}
